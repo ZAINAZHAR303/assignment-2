@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - ADEEL</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="./mystyle.css">
+    <div>Registration Form</div>
+    <table> 
+        
+        <tr>
+            <td>Student Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Father's Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Mother's Name</td>
+            <td><input type="text"></td>
+
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male" required="">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required="">
+                <label for="female">Female</label>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Mobile No.</td>
+            <td><input type="tel" id="tel" name="Mobile No." placeholder="03XX-XXXXXXX" pattern="[0-9]{4}-[0-9]{7}" required=""></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="id="cols="21"rows="3" placeholder="Enter Your Address Here" ></textarea></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>city</td>
+            <td><input type="text"></td>
+        </tr>
+
+    </table>
+    <button>Submit</button>
+    
+</body>
+</html>
